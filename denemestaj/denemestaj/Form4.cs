@@ -636,7 +636,7 @@ namespace denemestaj
 
             }
         }
-
+        
         private void yenidersadi_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar))
